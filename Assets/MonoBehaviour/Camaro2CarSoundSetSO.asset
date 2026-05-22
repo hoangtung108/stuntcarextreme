@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3d65239abda2b31478b8f256bbf4254, type: 3}
+  m_Name: Camaro2CarSoundSetSO
+  m_EditorClassIdentifier:
+  AccelerationClip: {fileID: 8300000, guid: 927295da508de5643953bda83badc00f, type: 3}
+  OverrideVolumeAcceleration: 0
+  AccelerationClipVolume: 1
+  IdleClip: {fileID: 8300000, guid: c86e513a2b0ec5849afa8300b61f4b5b, type: 3}
+  OverrideVolumeIdle: 0
+  IdleClipVolume: 1
+  SkidClip: {fileID: 8300000, guid: c6eb8a0b134a11a40990ee4a31c2f1bb, type: 3}
+  OverrideVolumeSkid: 0
+  SkidClipVolume: 1
+  ReleaseGasClip: {fileID: 8300000, guid: c37715f81cfc5ab41b3a57311ed8231b, type: 3}
+  OverrideVolumeReleaseGas: 1
+  ReleaseGasClipVolume: 0.5
+  MaxRPMClip: {fileID: 8300000, guid: eb4f286d6e0683c4fb4ba1036a5b9a8d, type: 3}
+  OverrideVolumeMaxRPM: 1
+  MaxRPMClipVolume: 0.85
+  OverridePitchMaxRPM: 1
+  MaxRPMClipPitch: 0.9
+  JumpLandedClip: {fileID: 8300000, guid: fb38f6eb8bc23874a8c59cbc2071d2b5, type: 3}
+  OverrideVolumeJumpLanded: 0
+  JumpLandedClipVolume: 1
+  CrashClips:
+  - {fileID: 8300000, guid: 7457218ca6b40db419c4e48f3b582172, type: 3}
+  - {fileID: 8300000, guid: 3415978dd223f1d4b86061e1a7cee768, type: 3}
+  - {fileID: 8300000, guid: a0e723d6803e0694fa1eed4636b1cbcd, type: 3}
+  RollingWheelsClips:
+  - {fileID: 8300000, guid: f96a038f78438284c8dba96d92b4f305, type: 3}
+  - {fileID: 8300000, guid: 8587b87c6cb3bf744a2301a0cf04ba9b, type: 3}
+  - {fileID: 8300000, guid: 308658dffc35cb84e8fea1ee7f931494, type: 3}
+  RollingMinPitch: 0.9
+  RollingMaxPitch: 1.1
+  RollingMinVolume: 0
+  RollingMaxVolume: 1
+  JumpLandedMinVolume: 0.5
+  JumpLandedMaxVolume: 1

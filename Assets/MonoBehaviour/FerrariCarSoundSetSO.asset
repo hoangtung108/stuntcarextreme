@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3d65239abda2b31478b8f256bbf4254, type: 3}
+  m_Name: FerrariCarSoundSetSO
+  m_EditorClassIdentifier:
+  AccelerationClip: {fileID: 8300000, guid: e4182aa688b9705468d81c2cab5903ba, type: 3}
+  OverrideVolumeAcceleration: 0
+  AccelerationClipVolume: 1
+  IdleClip: {fileID: 8300000, guid: 8bc8ec33538d83745b25e49c76471267, type: 3}
+  OverrideVolumeIdle: 0
+  IdleClipVolume: 1
+  SkidClip: {fileID: 8300000, guid: 345b90db094b55e478b77d67c55b4e9c, type: 3}
+  OverrideVolumeSkid: 0
+  SkidClipVolume: 1
+  ReleaseGasClip: {fileID: 8300000, guid: ae76381d35e6f404881c328f99729fda, type: 3}
+  OverrideVolumeReleaseGas: 0
+  ReleaseGasClipVolume: 1
+  MaxRPMClip: {fileID: 8300000, guid: 206cc0991b92a9c40b64bae83a79729a, type: 3}
+  OverrideVolumeMaxRPM: 1
+  MaxRPMClipVolume: 0.85
+  OverridePitchMaxRPM: 1
+  MaxRPMClipPitch: 0.9
+  JumpLandedClip: {fileID: 8300000, guid: 29aeb16c860a44146ac3d91eedc96d2b, type: 3}
+  OverrideVolumeJumpLanded: 0
+  JumpLandedClipVolume: 1
+  CrashClips:
+  - {fileID: 8300000, guid: 9bdff36eb65961642aa2af5bccf2774d, type: 3}
+  - {fileID: 8300000, guid: 5be57404133ac04458bb9efa92038dc6, type: 3}
+  - {fileID: 8300000, guid: a1aebb856d2fbde41bb26da077ea4758, type: 3}
+  RollingWheelsClips:
+  - {fileID: 8300000, guid: ca054c5bdfbae564fa6ab6db25a9a8f9, type: 3}
+  - {fileID: 8300000, guid: 38fb91d870ea1ac4f995ad602873afb4, type: 3}
+  - {fileID: 8300000, guid: 1a51f95aab3e0334b9cd00570a423b6d, type: 3}
+  RollingMinPitch: 0.9
+  RollingMaxPitch: 1.1
+  RollingMinVolume: 0
+  RollingMaxVolume: 1
+  JumpLandedMinVolume: 0.5
+  JumpLandedMaxVolume: 1

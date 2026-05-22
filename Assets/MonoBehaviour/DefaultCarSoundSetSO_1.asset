@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3d65239abda2b31478b8f256bbf4254, type: 3}
+  m_Name: DefaultCarSoundSetSO
+  m_EditorClassIdentifier:
+  AccelerationClip: {fileID: 8300000, guid: 2145cbe535d88bb48aa28f4c0d30bc14, type: 3}
+  OverrideVolumeAcceleration: 0
+  AccelerationClipVolume: 1
+  IdleClip: {fileID: 8300000, guid: e9327904cc0d787458f5400deefbde7d, type: 3}
+  OverrideVolumeIdle: 0
+  IdleClipVolume: 1
+  SkidClip: {fileID: 8300000, guid: 219c2ef8add354147abf5bcef0383dd0, type: 3}
+  OverrideVolumeSkid: 0
+  SkidClipVolume: 1
+  ReleaseGasClip: {fileID: 8300000, guid: 0841c40b8fee90f4bb461880885ec698, type: 3}
+  OverrideVolumeReleaseGas: 0
+  ReleaseGasClipVolume: 1
+  MaxRPMClip: {fileID: 8300000, guid: b839d6b0c92378a4d932241813d17c33, type: 3}
+  OverrideVolumeMaxRPM: 1
+  MaxRPMClipVolume: 0.85
+  OverridePitchMaxRPM: 1
+  MaxRPMClipPitch: 0.9
+  JumpLandedClip: {fileID: 8300000, guid: 6d1e514ce43393c4eb72ce0c09b15a82, type: 3}
+  OverrideVolumeJumpLanded: 0
+  JumpLandedClipVolume: 1
+  CrashClips:
+  - {fileID: 8300000, guid: 30fa46f062a57d946b8f393693ab472f, type: 3}
+  - {fileID: 8300000, guid: 6720b46cdb7da7344b7e59602099ef9c, type: 3}
+  - {fileID: 8300000, guid: b9cec5fc17311df42813552be227d22d, type: 3}
+  RollingWheelsClips:
+  - {fileID: 8300000, guid: 5e7275add40194349bce663da1e86631, type: 3}
+  - {fileID: 8300000, guid: 0a6999d2b50d7c448ba8a257d39cd991, type: 3}
+  - {fileID: 8300000, guid: 1e5fbc4bb725f794a90d050dc1f5a293, type: 3}
+  RollingMinPitch: 0.9
+  RollingMaxPitch: 1.1
+  RollingMinVolume: 0
+  RollingMaxVolume: 1
+  JumpLandedMinVolume: 0.5
+  JumpLandedMaxVolume: 1

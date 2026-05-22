@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3d65239abda2b31478b8f256bbf4254, type: 3}
+  m_Name: LamboCarSoundSetSO
+  m_EditorClassIdentifier:
+  AccelerationClip: {fileID: 8300000, guid: 04a1fe4a3c97a6d4187eaf3e9453ad27, type: 3}
+  OverrideVolumeAcceleration: 0
+  AccelerationClipVolume: 1
+  IdleClip: {fileID: 8300000, guid: 79251c5899bd27b48aebef35269d7b3d, type: 3}
+  OverrideVolumeIdle: 0
+  IdleClipVolume: 1
+  SkidClip: {fileID: 8300000, guid: 1914c89a54366b645ad2302095899b92, type: 3}
+  OverrideVolumeSkid: 0
+  SkidClipVolume: 1
+  ReleaseGasClip: {fileID: 8300000, guid: 57ed1421e71f19f4e978719a5855e71e, type: 3}
+  OverrideVolumeReleaseGas: 0
+  ReleaseGasClipVolume: 1
+  MaxRPMClip: {fileID: 8300000, guid: 1fa0ae7e9e053554b8e570f513d2d57c, type: 3}
+  OverrideVolumeMaxRPM: 1
+  MaxRPMClipVolume: 0.85
+  OverridePitchMaxRPM: 1
+  MaxRPMClipPitch: 0.9
+  JumpLandedClip: {fileID: 8300000, guid: bd18cc679ed064c44b2075149d1baa2f, type: 3}
+  OverrideVolumeJumpLanded: 0
+  JumpLandedClipVolume: 1
+  CrashClips:
+  - {fileID: 8300000, guid: b254a85c24935d346bdaae43a3168448, type: 3}
+  - {fileID: 8300000, guid: c0970331cc7131f48a8ec202be28f416, type: 3}
+  - {fileID: 8300000, guid: 9673e61ef0a19084cbd353906d24a24a, type: 3}
+  RollingWheelsClips:
+  - {fileID: 8300000, guid: 42aca09783026ea4782549e4441a5150, type: 3}
+  - {fileID: 8300000, guid: 6ccb3c1e24a14ef46ace7c4462f06332, type: 3}
+  - {fileID: 8300000, guid: 94d357727a07a4946939ccdbeae2f78d, type: 3}
+  RollingMinPitch: 0.9
+  RollingMaxPitch: 1.1
+  RollingMinVolume: 0
+  RollingMaxVolume: 1
+  JumpLandedMinVolume: 0.5
+  JumpLandedMaxVolume: 1

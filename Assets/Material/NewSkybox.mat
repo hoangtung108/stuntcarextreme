@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NewSkybox
+  m_Shader: {fileID: 4800000, guid: 47c0a964da5b21e42bb1699f0e977c87, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: fa00f24408a619e4fa2372b9520ea9bf, type: 3}
+        m_Scale: {x: 2.8, y: 2}
+        m_Offset: {x: 0, y: 0}
+      _SecondaryTex:
+        m_Texture: {fileID: 2800000, guid: 48043740c745cbe47a18577871eef959, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 3.47, y: 7.61}
+    m_Ints: {}
+    m_Floats:
+      Vector1_28D15B04: 0.7
+      Vector1_6E325AC: 1
+      Vector1_9A895274: 0.56
+      Vector1_B9ECEC05: 1.09
+      Vector1_CBB3010E: 0.01
+      _AlphaClip: 0
+      _Blend: 0
+      _BumpScale: 1
+      _Cull: 2
+      _Cutoff: 0.5
+      _DstBlend: 0
+      _EnvironmentReflections: 1
+      _FrontOffsetMultiplier: -3
+      _GlossMapScale: 0
+      _Glossiness: 0
+      _GlossyReflections: 0
+      _MainTexAlpha: 0.314
+      _Metallic: 0
+      _MidOffsetMultiplier: -1
+      _OcclusionStrength: 1
+      _Offset: 0
+      _QueueOffset: 0
+      _ReceiveShadows: 1
+      _SampleGI: 0
+      _SecondaryTexAlpha: 0.733
+      _Smoothness: 0.5
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _Surface: 0
+      _WorkflowMode: 1
+      _ZWrite: 1
+    m_Colors:
+      Color_2EABEED6: {r: 0.6792453, g: 0.34752235, b: 0.33641866, a: 0}
+      Color_4302276C: {r: 0.22988607, g: 0.27170908, b: 0.7735849, a: 0}
+      Color_73FD897F: {r: 0.35479707, g: 0.6295173, b: 0.6320754, a: 0}
+      Color_D1134D92: {r: 0.16874333, g: 0.37308654, b: 0.4528302, a: 0}
+      Color_DE978250: {r: 0.5849056, g: 0.38901743, b: 0.38901743, a: 0.31764707}
+      Vector2_65B5D27B: {r: 0, g: 0, b: 0, a: 0}
+      Vector2_A44B895: {r: 120, g: -132.2, b: 0, a: 0}
+      Vector2_B9C6FC86: {r: 6.16, g: 1.96, b: 0, a: 0}
+      Vector2_EDA9FBE9: {r: 38.86, g: 0.21, b: -2.01, a: 0}
+      Vector2_F062E3D3: {r: 3.81, g: -5.81, b: 0, a: 0}
+      _BaseColor: {r: 1, g: 0.9079899, b: 0.759434, a: 1}
+      _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _SkyColor: {r: 0, g: 0.83009267, b: 0.8490566, a: 1}
+      _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 0
